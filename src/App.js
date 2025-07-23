@@ -4,7 +4,6 @@ import './App.css';
 import { createRoot } from 'react-dom/client';
 import Navbar from './components/Navbar';
 
-
 function App() {
   return (
     <div>
@@ -53,7 +52,9 @@ function App() {
           <p className="text-muted">&copy; 2025 Company, Inc.</p>
         </footer>
       </div>
+      
     </div>
+    
   );
 }
 

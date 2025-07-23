@@ -8,21 +8,25 @@ body {
 
 
 header {
+
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 
 .pricing-header {
+  
   max-width: 700px;
 }
 
 
 .card-deck .card {
   min-width: 220px;
+display: flex;
 }
 
 
 .card-title {
+  
   font-size: 2.5rem;
   margin: 0.5rem 0;
 }
@@ -76,13 +80,26 @@ body {
 
 body {
   padding-top: 70px; 
+
 }
 .header {
   text-align: center;         
-  margin-top: 100px;          
+  margin-top: 100px; 
+       
 }
 
 .header h1 {
   font-size: 2.5rem;        
   font-weight: bold;
+}
+.card-deck {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* kartalar orasidagi masofa */
+  flex-wrap: wrap; /* kichik ekranda pastga tushishi uchun */
+}
+
+.card {
+  flex: 1 1 300px; /* minimal o‘lchamlar */
+  max-width: 350px;
 }
