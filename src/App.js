@@ -1,9 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { createRoot } from 'react-dom/client';
 import Navbar from './components/Navbar';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <div>
